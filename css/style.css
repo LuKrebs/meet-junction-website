@@ -1,0 +1,97 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Merriweather', serif;
+}
+
+body {
+  background: url("../img/bg.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.container {
+  max-width:940px;
+}
+
+/* Header */
+.header {
+  padding: 12px 0;
+  background-color: rgba(0,0,0,.5);
+}
+
+.header .container ul li {
+  list-style-type: none;
+  float: left;
+  display: inline;
+  margin: 10px 33px 0 0;
+}
+
+.header .container a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.header .container a:hover {
+  text-decoration: none;
+  color: rgba(0,255,188,1);
+  border-bottom: 1px solid rgba(0,255,188,1);
+  padding-bottom: 4px;
+}
+
+.header .container img {
+  width: 35px;
+  height: 35px;
+  margin-top: -10px;
+}
+
+/* Jumbotron */
+.test {
+  position: relative;
+  top: 70px;
+  text-shadow: 0 2px 3px rgba(0,0,0,.4);
+  color: white;
+  text-align: center;
+  margin-bottom: 110px;
+}
+
+.test h1 {
+  font-size: 60px;
+}
+
+/* Supporting */
+.supporting {
+  margin-top: 40px;
+  text-shadow: 0 2px 3px rgba(0,0,0,.4);
+  text-align: center;
+}
+
+.supporting .container h2, .supporting .container p {
+  color: white;
+}
+
+.supporting .container p {
+  font-size: 16px;
+  margin-bottom: 50px;
+}
+
+.supporting .container img {
+  width: 130px;
+  height: 130px;
+}
+
+/*supporing-two*/
+
+.supporing-two .container a {
+  color: white;
+  text-decoration: none;
+  background-color: rgba(0,255,188,0.5);
+  padding: 10px 65px;
+  font-size: 18px;
+  border-radius: 10px;
+}
+
+
+.supporing-two .container a:hover {
+  background-color: rgba(0,0,0,.5);
+  transition: 0.5s;
+}
